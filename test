@@ -1,15 +1,31 @@
 public class MyClass {
     public static void main(String args[]) {
-      int x=10;
-      int y=25;
-      int z=x+y;
-
-      System.out.println("Sum of x+y = " + z);
+        
+      //change number
+      double x = 10;
       
-       if (z == 69){
-          System.out.println("hahaha " + z + " is a funny number");
-      }else{
-          System.out.println( z + " has no importance");
-       }
+      //change number
+      double y = 25;
+      
+      //change for differnt operation (add, sub, mult, div)
+      String op = "div";
+      
+      
+      
+      
+      //the primitive "x" always comes before "y"
+      
+      if (op.equals("add")){
+          System.out.println(x + y);
+          
+      }else if (op.equals("sub")){
+          System.out.println(x - y);
+          
+      }else if (op.equals("mult")){
+          System.out.println(x * y);
+          
+      }else if (op.equals("div")){
+          System.out.println(x / y);
+      }
     }
 }
