@@ -5,5 +5,11 @@ public class MyClass {
       int z=x+y;
 
       System.out.println("Sum of x+y = " + z);
+      
+       if (z == 69){
+          System.out.println("hahaha " + z + " is a funny number");
+      }else{
+          System.out.println( z + " has no importance");
+       }
     }
 }
