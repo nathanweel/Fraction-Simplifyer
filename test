@@ -1,4 +1,4 @@
-public class MyClass {
+public class Calculator {
     public static void main(String args[]) {
         
       //change number
@@ -7,11 +7,8 @@ public class MyClass {
       //change number
       double y = 25;
       
-      //change for differnt operation (add, sub, mult, div)
+      //change for different operation (add, sub, mult, div)
       String op = "div";
-      
-      
-      
       
       //the primitive "x" always comes before "y"
       
