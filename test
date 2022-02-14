@@ -24,5 +24,13 @@ public class Calculator {
       }else if (op.equals("div")){
           System.out.println(x / y);
       }
+      
+            //small ratios thing
+      if (op.equals("ratios")){
+          System.out.println( x + " : " + y + ", " + x + " to " + y);
+          
+      }else {
+          System.out.println("Variable 'op' does not equal 'ratios'");
+      }
     }
 }
