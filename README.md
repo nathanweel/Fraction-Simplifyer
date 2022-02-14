@@ -1,3 +1,2 @@
-# hello-world
-beginning repo.
-I like sushi
+# Mini Calculator
+beginning repo. A small calculator (not that good)
