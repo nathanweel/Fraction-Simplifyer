@@ -1,3 +1,3 @@
 # hello-world
-beginning repo
+beginning repo.
 I like sushi
