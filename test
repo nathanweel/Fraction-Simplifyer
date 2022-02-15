@@ -8,16 +8,13 @@ public class MiniCalc {
       double y = 75;
       
       //change for different operation (add, sub, mult, div, simplify)
-      String op = "simplify";
+      String op = "die";
       
       //if String 'op' equals simplify change n1 and n2
       //n1 is the numerator and n2 is the denominator (mixed numbers do not work)
-      int n1 = 10;
-       int n2 = 50;
-       int temp1 = n1;
-       int temp2 = n2;
-      
-      
+      int n1 = 9;
+       int n2 = 72;
+       
       //the primitive "x" always comes before "y"
       
       if (op.equals("add")){
@@ -37,6 +34,8 @@ public class MiniCalc {
           System.out.println(x / y);
           
       }else if (op.equals("simplify")){
+          int temp1 = n1;
+          int temp2 = n2;
           
           while (n1 != n2){
          if(n1 > n2)
