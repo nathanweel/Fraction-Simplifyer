@@ -1,4 +1,4 @@
-public class MiniCalc {
+public class Simplifyer {
     public static void main(String[] args) {
 
         //I got the main code to simplify from the URL below
