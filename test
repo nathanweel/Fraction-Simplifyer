@@ -35,6 +35,10 @@ public class MiniCalc {
           System.out.println(x / y);
           
       }else if (op.equals("simplify")){
+      
+          //I got the simplify code from the below URL
+         // https://stackoverflow.com/questions/6618994/simplifying-fractions-in-java
+      
           int temp1 = n1;
           int temp2 = n2;
           
