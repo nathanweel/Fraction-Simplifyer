@@ -52,6 +52,8 @@ public class MiniCalc {
 
       System.out.print(n3 + "/" + n4 + "\n\n" );
           
+      }else {
+          System.out.println("String 'op' has an undefined value");
       }
     }
 }
