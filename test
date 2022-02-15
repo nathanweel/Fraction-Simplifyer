@@ -1,36 +1,57 @@
-public class Calculator {
+public class MiniCalc {
     public static void main(String args[]) {
         
       //change number
-      double x = 10;
+      double x = 5982;
       
-      //change number
-      double y = 25;
+      //change numeber
+      double y = 75;
       
-      //change for different operation (add, sub, mult, div)
-      String op = "div";
+      //change for different operation (add, sub, mult, div, simplify)
+      String op = "simplify";
+      
+      //if String 'op' equals simplify change n1 and n2
+      //n1 is the numerator and n2 is the denominator
+      int n1 = 10;
+       int n2 = 50;
+       int temp1 = n1;
+       int temp2 = n2;
+      
       
       //the primitive "x" always comes before "y"
       
       if (op.equals("add")){
+          System.out.println("The answer is:");
           System.out.println(x + y);
           
       }else if (op.equals("sub")){
+          System.out.println("The answer is:");
           System.out.println(x - y);
           
       }else if (op.equals("mult")){
+          System.out.println("The answer is:");
           System.out.println(x * y);
           
       }else if (op.equals("div")){
+          System.out.println("The answer is:");
           System.out.println(x / y);
-      }
-      
-            //small ratios thing
-      if (op.equals("ratios")){
-          System.out.println( x + " : " + y + ", " + x + " to " + y);
           
-      }else {
-          System.out.println("Variable 'op' does not equal 'ratios'");
+      }else if (op.equals("simplify")){
+          
+          while (n1 != n2){
+         if(n1 > n2)
+            n1 = n1 - n2;
+         else
+            n2 = n2 - n1;
+       }      
+
+      int n3 = temp1 / n1 ;
+      int n4 = temp2 / n1 ;
+
+      System.out.println("The answer is:");
+
+      System.out.print(n3 + "/" + n4 + "\n\n" );
+          
       }
     }
 }
