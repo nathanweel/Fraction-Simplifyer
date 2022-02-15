@@ -1,21 +1,22 @@
 public class MiniCalc {
     public static void main(String args[]) {
+    
+      //the primitive "x" always comes before the primitive "y"
         
       //change number
       double x = 5982;
       
-      //change numeber
+      //change number
       double y = 75;
       
       //change for different operation (add, sub, mult, div, simplify)
       String op = "simplify";
       
-      //if String 'op' equals simplify change n1 and n2
+      //if String 'op' equals "simplify" change n1 and n2
       //n1 is the numerator and n2 is the denominator (mixed numbers do not work)
+      
       int n1 = 9;
        int n2 = 72;
-       
-      //the primitive "x" always comes before "y"
       
       if (op.equals("add")){
           System.out.println("The answer is:");
