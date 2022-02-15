@@ -4,6 +4,14 @@ public class MiniCalc {
         //I got the main code to simplify from the URL below
         // https://stackoverflow.com/questions/6618994/simplifying-fractions-in-java
 
+        System.out.println("System.out.println(\"__    __ ____  _     ____  ____  __  __  ____                                                                      \\n\" +\n" +
+                "                \"\\\\ \\\\/\\\\/ /| ===|| |__ / (__`/ () \\\\|  \\\\/  || ===|                                                                     \\n\" +\n" +
+                "                \" \\\\_/\\\\_/ |____||____|\\\\____)\\\\____/|_|\\\\/|_||____|                                                                     \\n\" +\n" +
+                "                \" __  __   ____   ____  ____    _____ __  __    __  _   ____  _____  _   _   ____   __  _ __    __ ____  ____  _    \\n\" +\n" +
+                "                \"|  \\\\/  | / () \\\\ | _) \\\\| ===|   | () )\\\\ \\\\/ /   |  \\\\| | / () \\\\|_   _|| |_| | / () \\\\ |  \\\\| |\\\\ \\\\/\\\\/ /| ===|| ===|| |__ \\n\" +\n" +
+                "                \"|_|\\\\/|_|/__/\\\\__\\\\|____/|____|   |_()_) |__|    |_|\\\\__|/__/\\\\__\\\\ |_|  |_| |_|/__/\\\\__\\\\|_|\\\\__| \\\\_/\\\\_/ |____||____||____|\");\n" +
+                "    }");
+
         System.out.println("What is your numerator (the fraction cannot be a mixed number or it breaks the program)");
         int n1 = Integer.parseInt(System.console().readLine());
 
