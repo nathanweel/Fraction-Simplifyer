@@ -11,7 +11,7 @@ public class MiniCalc {
       String op = "simplify";
       
       //if String 'op' equals simplify change n1 and n2
-      //n1 is the numerator and n2 is the denominator
+      //n1 is the numerator and n2 is the denominator (mixed numbers do not work)
       int n1 = 10;
        int n2 = 50;
        int temp1 = n1;
