@@ -1,66 +1,28 @@
 public class MiniCalc {
-    public class MiniCalc1 {
-        public static void main(String args[]) {
+    public static void main(String[] args) {
 
-            //the primitive "x" always comes before the primitive "y"
+        //I got the main code to simplify from the URL below
+        // https://stackoverflow.com/questions/6618994/simplifying-fractions-in-java
 
-            //change number
-            double x = 5982;
+        System.out.println("What is your numerator (the fraction cannot be a mixed number or it breaks the program)");
+        int n1 = Integer.parseInt(System.console().readLine());
 
-            //change number
-            double y = 75;
+        System.out.println("What is your denominator?");
+        int n2 = Integer.parseInt(System.console().readLine());
 
-            //change for different operation (add, sub, mult, div, simplify)
-            String op = "simplify";
+        int simp1 = n1;
+        int simp2 = n2;
 
-            //if String 'op' equals "simplify" change n1 and n2
-            //n1 is the numerator and n2 is the denominator (mixed numbers do not work)
-
-            int n1 = 9;
-            int n2 = 72;
-
-            if (op.equals("add")){
-                System.out.println("The answer is:");
-                System.out.println(x + y);
-
-            }else if (op.equals("sub")){
-                System.out.println("The answer is:");
-                System.out.println(x - y);
-
-            }else if (op.equals("mult")){
-                System.out.println("The answer is:");
-                System.out.println(x * y);
-
-            }else if (op.equals("div")){
-                System.out.println("The answer is:");
-                System.out.println(x / y);
-
-            }else if (op.equals("simplify")){
-
-                //I got the simplify code from the below URL
-                // https://stackoverflow.com/questions/6618994/simplifying-fractions-in-java
-
-                int temp1 = n1;
-                int temp2 = n2;
-
-                while (n1 != n2){
-                    if(n1 > n2)
-                        n1 = n1 - n2;
-                    else
-                        n2 = n2 - n1;
-                }
-
-                int n3 = temp1 / n1 ;
-                int n4 = temp2 / n1 ;
-
-                System.out.println("The answer is:");
-
-                System.out.print(n3 + "/" + n4 + "\n\n" );
-
-            }else {
-                System.out.println("String 'op' has an undefined value");
-            }
+        while (n1 != n2) {
+            if (n1 > n2) n1 = n1 - n2;
+            else n2 = n2 - n1;
         }
-    }
 
+        int n3 = simp1 / n1;
+        int n4 = simp2 / n1;
+
+        System.out.println("Your simplifies fraction is:");
+
+        System.out.print(n3 + "/" + n4 + "\n\n");
+    }
 }
