@@ -12,11 +12,16 @@ public class MiniCalc {
                 "                \"|_|\\\\/|_|/__/\\\\__\\\\|____/|____|   |_()_) |__|    |_|\\\\__|/__/\\\\__\\\\ |_|  |_| |_|/__/\\\\__\\\\|_|\\\\__| \\\\_/\\\\_/ |____||____||____|\");\n" +
                 "    }");
 
-        System.out.println("What is your numerator (the fraction cannot be a mixed number or it breaks the program)");
+        System.out.println("What is your numerator (the fraction cannot be an improper fraction or it breaks the program)");
         int n1 = Integer.parseInt(System.console().readLine());
 
         System.out.println("What is your denominator?");
         int n2 = Integer.parseInt(System.console().readLine());
+
+        if (n1 > n2){
+            System.out.println("Improper fractions cannot be simplified with this program");
+            System.exit(0);
+        }
 
         int simp1 = n1;
         int simp2 = n2;
