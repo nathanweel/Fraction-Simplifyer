@@ -8,7 +8,7 @@ public class MiniCalc {
       double y = 75;
       
       //change for different operation (add, sub, mult, div, simplify)
-      String op = "die";
+      String op = "simplify";
       
       //if String 'op' equals simplify change n1 and n2
       //n1 is the numerator and n2 is the denominator (mixed numbers do not work)
