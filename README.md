@@ -10,3 +10,6 @@ My first repository.
 2. In the command line/prompt access the file Simpifyer.java
 3. Make sure you access the file first either through the command line/prompt or through activating a `.bat` file through the command line/prompt
 4. Then just type `java Simplifyer` and your good to go!
+
+# Credit
+I got the base code for this program from a [**stack overflow**](https://stackoverflow.com/questions/6618994/simplifying-fractions-in-java) post
