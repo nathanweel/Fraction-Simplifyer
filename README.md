@@ -11,4 +11,4 @@ My first repository.
 3. Then just type `java Simplifyer` and your good to go!
 
 ## Credit
-I got the base code for this program from a [**stack overflow**](https://stackoverflow.com/questions/6618994/simplifying-fractions-in-java) post
+I got the base code for this program from a [***Stack Overflow***](https://stackoverflow.com/questions/6618994/simplifying-fractions-in-java) post
