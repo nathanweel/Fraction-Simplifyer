@@ -8,3 +8,4 @@ My first repository.
 # How to Use
 1. You must first pull *all* the code to get it on your computer
 2. In the command line/prompt access the file Simpifyer.java
+3. `hi`
