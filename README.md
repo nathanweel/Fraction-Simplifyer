@@ -12,3 +12,7 @@ My first repository.
 
 ## Credit
 I got the base code for this program from a [***Stack Overflow***](https://stackoverflow.com/questions/6618994/simplifying-fractions-in-java) post
+
+###### Quote
+As teachers say 
+> It's counted wrong if it's not simplified
