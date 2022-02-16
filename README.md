@@ -1,6 +1,10 @@
 # Fraction Simplifyer
 My first repository.
 
+###### Quote
+As math teachers say 
+> **It's counted wrong if it's not simplified**
+
 # !Important!
 1. This program can only be accessed through the command line/prompt
 2. Since this program was made 100% in Java, it will work on all platforms (but works best on Windows)
@@ -12,7 +16,3 @@ My first repository.
 
 ## Credit
 I got the base code for this program from a [***Stack Overflow***](https://stackoverflow.com/questions/6618994/simplifying-fractions-in-java) post
-
-###### Quote
-As teachers say 
-> It's counted wrong if it's not simplified
