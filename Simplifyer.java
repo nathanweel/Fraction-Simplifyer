@@ -33,7 +33,7 @@ public class Simplifyer {
         int n3 = simp1 / n1;
         int n4 = simp2 / n1;
 
-        System.out.println("Your simplifies fraction is:");
+        System.out.println("Your simplified fraction is:");
 
         System.out.print(n3 + "/" + n4 + "\n\n");
     }
